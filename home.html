@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Wp Auto Spa</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+          <i class="fa-solid" id="nav_logo"> WP AUTO SPA</i>
+            
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Recomendações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <div id="ag_servico">
+              <a href="https://wp-auto-spa.reservio.com">
+                <button class="btn-default">
+                    Agendar 
+                </button>
+                </a>
+            </div>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Recomendações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <div id="ag_servico">
+            <a href="https://wp-auto-spa.reservio.com">
+            <button class="btn-default">
+                Agendar
+            </button>
+            </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                  Na WP Auto Spa, cuidamos do seu carro como se fosse nosso!
+                </h1>
+
+                <p class="description">
+                    Faça seu agendamento por aqui! Se não tem interesse hoje dê uma olhada nos nossos <span>produtos disponíveis da Wp Store!</span>
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="https://wp-auto-spa.reservio.com" class="btn-default">
+                        Agendar serviço
+                    </a>
+
+                    <a href="https://amzn.to/3Toz9PE" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-shop"></i>
+                        </button>
+                        Ir para loja
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/11945094866">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://instagram.com/wpautospa/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- <div id="banner">
+                <img src="/img/pexel.webp" alt="">
+            </div> -->
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">WP Store</h2>
+            <h3 class="section-subtitle">Nossas recomendações de hoje</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <a href="https://amzn.to/3MEIhfg">
+                    <img src="/images/luva.jpg" class="dish-image" alt="" width="225" height="200">
+                    </a>
+                    <h3 class="dish-title">
+                      Luva em Microfibra Dupla Face Limpeza e Polimento 100% Poliester Multi - AU309
+                    </h3>
+
+                    <span class="dish-description">
+                      Com microfone, falante 53mm, plug 3.5mm: compatível com XBOX ONE e PS4, HAVIT, HV-H2002d e Outros
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$155,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <a href="https://amzn.to/3Tr1S6F">
+                    <img src="/images/kit.jpg" class="dish-image" alt="" width="200" height="220">
+                    </a>
+                    <h3 class="dish-title">
+                      Kit Produtos Vonixx Para Lavagem De Motos e Carros
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$86,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <a href="https://amzn.to/3z3c8Lq">
+                        <img src="/images/couro.jpg" class="dish-image" alt="" width="150" height="220">
+                    </a>
+                    
+                    <h3 class="dish-title">
+                      Limpa e Hidrata Couro Proauto 150 g
+                    </h3>
+
+                    <span class="dish-description">
+                        O livro de educação financeira mais comentado dos últimos anos, com mais de 1 milhão de exemplares vendidos no mundo todo!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$34,93</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    
+                    <a href="https://amzn.to/3Zo3L7I">
+                    <img src="/images/toalha.jpg" class="dish-image" alt="" width="230" height="220">
+                    </a>
+                    <h3 class="dish-title">
+                      Toalhas de microfibra para carros 3 peças 500 GSM polimento limpeza de casa, carro e motocicleta - 12 x 12 polegadas (30 x 30 cm)
+                    </h3>
+
+                    <span class="dish-description">
+                        Mais de 7 mil compras no mês passado
+
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$17,35</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Deco Consultoria Ltda.
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
